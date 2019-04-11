@@ -1,0 +1,32 @@
+@keyframes spinner {
+    100% {
+        transform: rotate(3600deg);
+    }
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+.spinner{
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    background: url("image.png") center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    transform-origin: 50% 50%;
+    animation: spinner 6s infinite alternate ease-in-out;
+}
+.text{
+    position: relative;
+    z-index: 1;
+    font-size: 50px;
+    font-family: 'Segoe UI Light';
+    color: white;
+}
