@@ -21,12 +21,12 @@ body{
     -webkit-background-size: contain;
     background-size: contain;
     transform-origin: 50% 50%;
-    animation: spinner 6s infinite alternate ease-in-out;
+    animation: spinner 12s infinite alternate ease-in-out;
 }
 .text{
     position: relative;
     z-index: 1;
     font-size: 50px;
-    font-family: 'Segoe UI Light';
+    font-family: 'Segoe UI Light', Tahoma, Verdana, sans-serif;
     color: white;
 }
