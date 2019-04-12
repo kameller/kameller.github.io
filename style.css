@@ -4,7 +4,7 @@
     }
 }
 body{
-    background-color: black;
+    background: url("space.jpg");
 }
 .container{
     margin: 0 auto;
