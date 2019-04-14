@@ -27,6 +27,6 @@ body{
     position: relative;
     z-index: 1;
     font-size: 50px;
-    font-family: 'Segoe UI Light', Tahoma, Verdana, sans-serif;
+    font-family: 'Segoe UI Light', Helvetica, Verdana, sans-serif;
     color: white;
 }
